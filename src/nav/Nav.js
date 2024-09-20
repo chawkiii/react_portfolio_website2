@@ -73,13 +73,13 @@ export default function Nav() {
         "nav-skills"
       )}
       {renderNavLink(
-        "/",
+        "/projects",
         stack,
         "stack icon",
         "nav-projects"
       )}
       {renderNavLink(
-        "/",
+        "/contact",
         envelope,
         "envelope icon",
         "nav-contact"
