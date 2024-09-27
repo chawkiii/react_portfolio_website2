@@ -105,16 +105,6 @@
 @media (max-width: 700px) {
   .sub-container {
     right: 1rem;
-  }
-  .item.active .title {
-    font-size: 1rem;
-  }
-  .item {
-    height: 2rem;
-  }
-}
-@media (max-width: 700px) {
-  .sub-container {
     width: 70%;
     top: 45%;
     left: 50%;
@@ -138,5 +128,11 @@
   h3,
   p {
     font-size: 0.8rem;
+  }
+  .item.active .title {
+    font-size: 1rem;
+  }
+  .item {
+    height: 2rem;
   }
 }
