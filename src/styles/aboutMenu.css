@@ -26,11 +26,11 @@
 }
 
 .sub-container {
-  width: 18.5rem;
+  width: 25%;
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 32%;
+  top: 20%;
   right: 10vw;
   cursor: pointer;
 }
