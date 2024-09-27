@@ -43,7 +43,7 @@ a {
     transform: translateX(0);
   }
   .nav {
-    top: 6rem;
+    top: 6.5rem;
     transform: translateX(-50%);
   }
   .nav-link {
