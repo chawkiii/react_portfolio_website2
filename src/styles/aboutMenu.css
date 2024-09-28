@@ -26,12 +26,12 @@
 }
 
 .sub-container {
-  width: 25%;
+  width: 35%;
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 20%;
-  right: 10vw;
+  top: 30%;
+  right: 5%;
   cursor: pointer;
 }
 
@@ -80,6 +80,7 @@
 .active-subheading .p-container {
   display: block;
   font-size: 1rem;
+  text-align: justify;
 }
 
 .icon-title-container {
@@ -103,9 +104,13 @@
 }
 
 @media (max-width: 700px) {
+  .menu{
+    left: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .sub-container {
-    right: 1rem;
-    width: 70%;
+    width: 80%;
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
@@ -113,6 +118,7 @@
   .title {
     font-size: 0.8rem;
     padding-right: 2.5rem;
+    width: 100%;
   }
   .active-subheading .p-container {
     font-size: 0.8rem;

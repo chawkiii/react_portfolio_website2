@@ -5,7 +5,6 @@
   top: 25%;
   left: 50%;
   transform: translateX(-50%);
-  border: solid 2px green;
 }
 
 .project-items-container {
@@ -13,7 +12,7 @@
   display: flex;
   position: relative;
   width: 40%;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
@@ -25,6 +24,7 @@
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
+  text-align: center;
 }
 
 .project-item.activeProject .title {
@@ -120,15 +120,32 @@
     flex-direction: column;
     align-items: center;
     bottom: 0;
-    bottom: 0%;
     transform: translateX(-50%);
   }
   .project-items-container {
-    margin-top: 0;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    width: 45%; 
+  }
+  .project-items-container h2{
+    width: 100%;
+  }
+  .project-sub-container h3{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
   }
   .project-menu p {
     font-size: 0.7rem;
     text-align: justify;
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    left: 5%;
+    height: 30%;
   }
   .project-sub-container {
     padding: 1rem;
@@ -136,12 +153,19 @@
     height: 100%;
   }
   .project-sub-container img {
-    width: 12rem;
+    width: 50%;
+    position: absolute;
+    right: 0%;
+  }
+  .link-container{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
   }
   .link-container a {
     margin-top: 0.5rem;
     width: 50%;
     height: 2rem;
   }
-  
 }
