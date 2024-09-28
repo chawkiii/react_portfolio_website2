@@ -1,11 +1,10 @@
 .menu {
-  width: 19rem;
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 60%;
-  transform: translateY(-60%);
-  left: 10vw;
+  left: 5%;
+  width: 25%;
+  top: 30%;
 }
 
 .item {
@@ -22,11 +21,11 @@
 }
 
 .item.active .title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .sub-container {
-  width: 35%;
+  width: 40%;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -106,12 +105,14 @@
 @media (max-width: 700px) {
   .menu{
     left: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    top: 30%;
+    width: 80%;
+    text-align: center;
   }
   .sub-container {
     width: 80%;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -142,5 +143,3 @@
     height: 2rem;
   }
 }
-
-

@@ -130,6 +130,8 @@
   }
   .project-items-container h2{
     width: 100%;
+    text-align: right;
+    z-index: 9999;
   }
   .project-sub-container h3{
     position: absolute;
@@ -137,6 +139,7 @@
     right: 10%;
     left: 10%;
     text-align: center;
+    font-size: 1rem;
   }
   .project-menu p {
     font-size: 0.7rem;

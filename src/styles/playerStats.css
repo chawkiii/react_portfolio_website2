@@ -21,6 +21,7 @@ h1 {
   #playerStats {
     left: 50%;
     transform: translateX(-50%);
+    width: 60%;
   }
   h1 {
     font-size: 1rem;
