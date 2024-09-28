@@ -1,13 +1,13 @@
 #playerStats {
-  width: 15rem;
-  height: 4rem;
+  width: 25%;
+  height: 10%;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  top: 3rem;
-  left: 3rem;
+  top: 5%;
+  left: 5%;
 }
 
 h1 {
@@ -21,9 +21,6 @@ h1 {
   #playerStats {
     left: 50%;
     transform: translateX(-50%);
-    width: 8rem;
-    height: 2.5rem;
-    top: 2rem;
   }
   h1 {
     font-size: 1rem;
