@@ -19,32 +19,30 @@ const projects = {
     demo: "https://chawkii-avocat-temp.netlify.app/",
   },
   2: {
-    title: "Productivity App",
+    title: "B.Broderie",
     image: projectTwo,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          e-commerce web page, using HTML, CSS, JavaScript... fonctionnal cart, animated and designed carousel... 
         </p>
       </>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/chawkiii/b.broderie",
+    demo: "https://chawkii-bbroderie.netlify.app",
   },
   3: {
-    title: "Food Delivery App",
+    title: "Portfolio",
     image: projectThree,
     description: (
       <>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          another version of my potfolio with other projects such as, todo list in react...
         </p>
       </>
     ),
-    github: "https://github.com",
-    demo: "https://netlify.com",
+    github: "https://github.com/chawkiii/react-portfolio-website",
+    demo: "https://chawkii-react-portfolio1.netlify.app",
   },
 };
 
